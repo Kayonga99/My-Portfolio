@@ -76,3 +76,10 @@ margin: 12px 0px;
   background-repeat: no-repeat;
   background-position: cover;
 }
+
+.ul-list-icons {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 24px;
+}
