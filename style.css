@@ -214,6 +214,8 @@ flex-grow: 0;
   background-color: #fff;
   height: 1263px;
   margin-top: 114px;
+border-top-right-radius: 94px;
+
 }
 
 .tools {
@@ -260,7 +262,6 @@ flex-grow: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   display: flex;
-
 }
 .lang {
   display: flex;
