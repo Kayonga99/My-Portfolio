@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+body {
+  /* background-color: #E5E5E5; */
+}
+
 .header {
   background-color: #fff;
   display: flex;
@@ -86,4 +90,61 @@ h1 {
   padding-bottom: 12px;
   margin-left: 24px;
   color: #7f8cff;
+}
+.card-section {
+  background: #E5E5E5;
+  padding-top: 114px;
+}
+
+
+.info {
+  margin-right: 10px;
+  margin-bottom: 4px;
+  color: #7a869a;
+  width: 125px;
+}
+
+.canopy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.description {
+  width: 295px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+.card {
+  width: 295px;
+  height: 220px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 16px;
+  flex: none;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
+border-radius: 8px;
+}
+.card-list {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding-right: 16px;
+padding-left: 16px;
+width: 327px;
+height: 552px;
+left: calc(50% - 327px/2);
+margin-left: 16px;
+background: #FFFFFF;
+border: 1px solid #DFE1E6;
+box-sizing: border-box;
+border-radius: 16px;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
