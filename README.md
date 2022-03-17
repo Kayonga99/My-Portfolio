@@ -6,6 +6,7 @@
 > This project is about setting up my portfolio's mobile version skeleton.
 
 ![setup m-version skeleton](./photos/shots/screenshot1.png)
+![portfolio mobile version](./photos/shots/screenshot2.png)
 
 
 
