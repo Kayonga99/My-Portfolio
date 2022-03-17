@@ -81,6 +81,15 @@ h1 {
   padding-top: 12px;
   padding-bottom: 136px;
 }
+.ul-list-icons-2{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 34px;
+}
+
 .tonic-class-2 {
   width: 280px;
   height: 36px;
@@ -224,13 +233,22 @@ flex-grow: 0;
 .btn {
   color: #396DF2;
   padding: 16px;
-  border-radius:16px;
+  border-radius: 10px;
   background-color: #fff;
   border:solid 1px #396DF2;
   padding-left: 16px;
-  width: 132px;
+  width: 142px;
 }
-
+.btn-2 {
+  color: #396DF2;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #fff;
+  border:solid 1px #396DF2;
+  padding-left: 12px;
+  width: 138px;
+  margin-left: 16px;
+}
 .about-me {
   color: #172b4d;
   font-size: 49px;
@@ -243,4 +261,37 @@ flex-grow: 0;
   font-weight: 700;
   display: flex;
 
+}
+.lang {
+  display: flex;
+  color: #000000;
+  height: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 22px; 
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.lang-1 {
+  display: inline-flex;
+  gap: 120px;
+padding-top: 60px;
+padding-left: 36px;
+padding-bottom: 36px;
+}
+
+.lang-3 {
+  display: inline-flex;
+  gap: 182px;
+  padding-top: 41px;
+  padding-left: 36px;
+  padding-bottom: 36px;
+}
+
+.tech {
+  height: 67px;
+  display: inline-flex;
+  background-color: #F7F7F9;
+  width: 303px;
 }
