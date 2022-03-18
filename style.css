@@ -333,3 +333,10 @@ h1 {
   margin-right: 0;
   text-align: center;
 }
+
+.form-section {
+  background-image: url(./photos/contact-form.png);
+  background-color: #6070FF;
+  height: 779px;
+  border-top-left-radius: 94px;
+}
