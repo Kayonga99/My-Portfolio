@@ -3,7 +3,7 @@
 
 # 
 
-> This project is about setting up my portfolio's mobile version skeleton.
+> Mobile version portfolio.
 
 ![setup m-version skeleton](./photos/shots/screenshot1.png)
 ![portfolio mobile version](./photos/shots/screenshot2.png)
@@ -11,7 +11,7 @@
 
 
 
-Additional description about the project and its features.
+
 
 ## Built With
 
@@ -21,17 +21,6 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 [Click here to view web](https://kayonga99.github.io/My-Portfolio/)
 
 
