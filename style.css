@@ -240,15 +240,17 @@ border-top-right-radius: 94px;
   border:solid 1px #396DF2;
   padding-left: 16px;
   width: 142px;
+  font-size: 17px;
 }
-.btn-2 {
-  color: #396DF2;
+.btn-2 {   
+   color: #396DF2;
   padding: 16px;
   border-radius: 10px;
   background-color: #fff;
-  border:solid 1px #396DF2;
+  border: solid 1px #396DF2;
   padding-left: 12px;
-  width: 138px;
+  width: 151px;
+  font-size: 17px;
   margin-left: 16px;
 }
 .about-me {
@@ -295,4 +297,36 @@ padding-bottom: 36px;
   display: inline-flex;
   background-color: #F7F7F9;
   width: 303px;
+  margin-left: 36px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+
 }
+
+.tech-lang {
+  display: flex;
+  color: #253858;
+  height: 24px;
+  padding: 24px;
+  font-family: 'poppins', sans-serif;
+  font-size: 15px;
+}
+
+.tech-lang-2 {
+  padding-left: 12px;
+  border: 1px solid #FFFFFF;
+  height: 48px;
+  padding-top: 12px;
+}
+.hr {
+  background-color: #DFE1E6;
+  height: 1px;
+width: 327px;
+margin-left: 22px;
+border-radius: 0px;
+margin-right: 0;
+text-align: center;
+
+
+}
+
