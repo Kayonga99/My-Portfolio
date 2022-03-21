@@ -374,8 +374,14 @@ h1 {
 
 input {
   display: flex;
-  width: 327px;
+}
 
+input#name {
+  width: 327px;
+  border-radius: 7px;
+  padding-left: 12px;
+  height: 49px ;
+  margin-bottom: 12px;
   margin-left: 24px;
-  height: 20px;
+  color: #172B4D;
 }
