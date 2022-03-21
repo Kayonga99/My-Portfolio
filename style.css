@@ -334,9 +334,38 @@ h1 {
   text-align: center;
 }
 
-.form-section {
+ .form-section {
   background-image: url(./photos/contact-form.png);
   background-color: #6070FF;
+  background-repeat: no-repeat;
+  background-position: cover;
   height: 779px;
   border-top-left-radius: 94px;
+}
+.contact-me {
+  height: 56px;
+  padding-top: 179px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  width: 336px;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  padding-left: 71px;
+  color: #FFFFFF;
+}
+.form-prg {
+  padding-top: 49px;
+  width: 355px;
+  padding-left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  padding-bottom: 12px;
+  margin: 12px 0;
 }
