@@ -112,6 +112,9 @@ h1 {
   line-height: 24px;
   padding-bottom: 12px;
   margin-left: 24px;
+}
+
+.connect a {
   color: #7f8cff;
 }
 
@@ -217,7 +220,7 @@ h1 {
 
 .card-list-5 {
   background-color: #fff;
-  height: 1263px;
+  height: 1346px;
   margin-top: 114px;
   border-top-right-radius: 94px;
 }
@@ -332,4 +335,101 @@ h1 {
   border-radius: 0;
   margin-right: 0;
   text-align: center;
+}
+
+.form-section {
+  background-image: url(./photos/contact-form.png);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-position: 145px 33px;
+  height: 789px;
+  border-top-left-radius: 94px;
+  background-size: 229px;
+  margin-top: -87px;
+}
+
+.contact-me {
+  height: 56px;
+  padding-top: 125px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 332px;
+  font-size: 43px;
+  line-height: 52px;
+  display: flex;
+  padding-left: 70px;
+  color: #fff;
+}
+
+.form-prg {
+  padding-top: 72px;
+  width: 342px;
+  padding-left: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  padding-right: 4px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  padding-bottom: 37px;
+}
+
+input {
+  display: flex;
+  color: #172b4d;
+}
+
+input#name {
+  width: 327px;
+  border-radius: 7px;
+  padding-left: 12px;
+  height: 49px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  color: #172b4d;
+}
+
+input#email {
+  margin-left: 24px;
+  border-radius: 7px;
+  padding-left: 12px;
+  width: 327px;
+  height: 49px;
+  color: #172b4d;
+  margin-bottom: 12px;
+  background-color: #fff;
+}
+
+input#placeholder {
+  color: #172b4d;
+}
+
+textarea.msg {
+  color: #172b4d;
+  width: 327px;
+  margin-left: 24px;
+  border-radius: 7px;
+  padding: 12px;
+  height: 170px;
+}
+
+.about-btn {
+  margin: 24px;
+  color: #396df2;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: solid 1px #396df2;
+  padding-left: 16px;
+  width: 142px;
+  font-size: 17px;
+}
+
+.hr-4 {
+  margin-left: 98px;
+  width: 137px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #0d151e;
 }
