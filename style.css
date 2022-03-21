@@ -385,3 +385,13 @@ input#name {
   margin-left: 24px;
   color: #172B4D;
 }
+
+input#email {
+  margin-left: 24px;
+  border-radius: 7px;
+  padding-left: 12px;
+  width: 327px;
+  height: 49px;
+  color: #172B4D;
+  background-color: #fff;
+}
