@@ -374,6 +374,7 @@ h1 {
 
 input {
   display: flex;
+  color: #172B4D;
 }
 
 input#name {
@@ -393,5 +394,37 @@ input#email {
   width: 327px;
   height: 49px;
   color: #172B4D;
+  margin-bottom: 12px;
   background-color: #fff;
+}
+
+input#placeholder {
+  color: #172B4D;
+}
+
+textarea.msg {
+  color: #172B4D;
+  width: 327px;
+  margin-left: 24px;
+  border-radius: 7px;
+
+}
+
+.about-btn {
+  margin: 24px;
+  color: #396df2;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: solid 1px #396df2;
+  padding-left: 16px;
+  width: 142px;
+  font-size: 17px;
+}
+
+.hr-4 {
+  margin-left: 98px;
+  width: 137px;
+  height: 5px;
+  border-radius: 10px;
 }
