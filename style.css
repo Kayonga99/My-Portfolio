@@ -339,7 +339,7 @@ h1 {
   background-color: #6070FF;
   background-repeat: no-repeat;
   background-position: 145px 33px;
-  height: 779px;
+  height: 789px;
   border-top-left-radius: 94px;
   background-size: 229px;
   margin-top: -87px;
@@ -407,6 +407,8 @@ textarea.msg {
   width: 327px;
   margin-left: 24px;
   border-radius: 7px;
+  padding: 12px;
+  height: 170px;
 
 }
 
@@ -427,5 +429,5 @@ textarea.msg {
   width: 137px;
   height: 5px;
   border-radius: 10px;
-  background color: #0D151E;
+  background-color: #0D151E;
 }
