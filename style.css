@@ -112,7 +112,11 @@ h1 {
   line-height: 24px;
   padding-bottom: 12px;
   margin-left: 24px;
+}
+
+.connect a {
   color: #7f8cff;
+ 
 }
 
 .card-section {
