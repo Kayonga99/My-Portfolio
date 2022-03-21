@@ -217,7 +217,7 @@ h1 {
 
 .card-list-5 {
   background-color: #fff;
-  height: 1263px;
+  height: 1346px;
   margin-top: 114px;
   border-top-right-radius: 94px;
 }
@@ -338,34 +338,41 @@ h1 {
   background-image: url(./photos/contact-form.png);
   background-color: #6070FF;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: 145px 33px;
   height: 779px;
   border-top-left-radius: 94px;
+  background-size: 229px;
+  margin-top: -87px;
 }
+
 .contact-me {
   height: 56px;
-  padding-top: 179px;
-  font-family: 'Poppins';
+  padding-top: 125px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  width: 336px;
-  font-size: 48px;
+  width: 332px;
+  font-size: 43px;
   line-height: 52px;
-  text-align: center;
   display: flex;
-  text-align: center;
-  padding-left: 71px;
+  padding-left: 70px;
   color: #FFFFFF;
 }
+
 .form-prg {
-  padding-top: 49px;
-  width: 355px;
-  padding-left: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  color: #fff;
-  padding-bottom: 12px;
-  margin: 12px 0;
+      padding-top: 72px;
+      width: 342px;
+      padding-left: 30px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 21px;
+      padding-right: 4px;
+      line-height: 28px;
+      color: #EBEBFF;
+      text-align: center;
+      padding-bottom: 37px;
+}
+
+input {
+  display: flex;
+
 }
