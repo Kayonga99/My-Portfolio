@@ -459,6 +459,10 @@ textarea.msg {
   display: none;
 }
 
+.animated {
+  display: none;
+}
+
 
 @media screen and (min-width: 992px) {
 .nav {
@@ -467,11 +471,8 @@ textarea.msg {
 
 .main-section {
   width: 100%;
-
+ 
 }
-
-
-
 
 
 ul.nav-list {
@@ -535,6 +536,11 @@ h1 {
   align-items: center;
 }
 
+.card {
+  display: none;
+
+}
+
 .prg {
   position: static;
   width: 1077px;
@@ -557,7 +563,7 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  padding-left: 277px;
+  padding-left: 236px;
   line-height: 24px;
   padding-bottom: 12px;
   margin-left: 24px;
@@ -568,9 +574,32 @@ h1 {
   display: flex;
   list-style: none;
   gap: 20px;
-  padding-left: 299px;
+  padding-left: 260px;
   padding-top: 12px;
   padding-bottom: 136px;
 }
+
+.card-section {
+  width: 100%;
+}
+
+.card-list {
+  display: flex;
+  width: 60%;
+  margin: 124px;
+  height: 325px;
+  margin-left: 260px;
+  margin-top: 142px;
+}
+
+
+.animated {
+  display: block;
+  width: 329px;
+  height: 323px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
 
 }
