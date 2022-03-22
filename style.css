@@ -470,54 +470,53 @@ textarea.msg {
 
 }
 
-/* 
-.logo {
-  padding-left: 155px;
-  width: 228px;
-  height: 20px;
-  padding-top: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #6070ff;
-  
-}
-*/
+
+
+
 
 ul.nav-list {
-    font-family: 'poppins', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 500;
-    display: inline-flex;
-    gap: 10px;
-    padding-top: 20px;
-    color: #344563;
-    height: 20px;
-    list-style: none;
-    padding-left: 657px;
-
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-flex;
+  gap: 10px;
+  padding-top: 20px;
+  color: rgb(52, 69, 99);
+  height: 20px;
+  padding-right: 56px;
+  list-style: none;
+  padding-left: 601px;
   } 
 
   .header {
-    justify-content: space-between;
     padding-left: 155px;
-    padding-right: 155px;
-
+width: 100%;
     height: 48px;
+  }
+
+  a.logo {
+    width: 228px;
+    height: 20px;
+    padding-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #6070ff;
+    
   }
 
 .intro-b {
   background-image: url("./photos/Header-bg@2x.png");
   background-repeat: no-repeat;
-  background-size: 94%;
+  background-size: 89%;
   height: 916px;
-  margin-left: 0px;
-  background-position: 111px 54px;
+  /* margin-left: 0px; */
+  background-position: 111px 55px;
   background-color: #FFFFFF;
 }
 
