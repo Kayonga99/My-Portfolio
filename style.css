@@ -466,11 +466,11 @@ textarea.msg {
 }
 
 .main-section {
-  width: 1440px;
+  width: 100%;
 
 }
 
-
+/* 
 .logo {
   padding-left: 155px;
   width: 228px;
@@ -486,8 +486,9 @@ textarea.msg {
   color: #6070ff;
   
 }
+*/
 
-  .nav-list {
+ul.nav-list {
     font-family: 'poppins', sans-serif;
     font-size: 15px;
     line-height: 20px;
@@ -500,15 +501,23 @@ textarea.msg {
     list-style: none;
     padding-left: 657px;
 
+  } 
+
+  .header {
+    justify-content: space-between;
+    padding-left: 155px;
+    padding-right: 155px;
+
+    height: 48px;
   }
 
 .intro-b {
   background-image: url("./photos/Header-bg@2x.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 94%;
   height: 916px;
   margin-left: 0px;
-  background-position: 0px 0px;
+  background-position: 111px 54px;
   background-color: #FFFFFF;
 }
 
