@@ -250,6 +250,22 @@ h1 {
   font-size: 17px;
 }
 
+.btn:hover {
+  color: #fff;
+  background-color: #fff;
+}
+
+.btn:active {
+  background: #2230D2;
+  color: #fff;
+}
+
+.btn:disabled {
+  color: #5E6C84;
+  background: #f4f1f0;
+} 
+
+
 .btn-2 {
   color: #396df2;
   padding: 16px;
@@ -432,4 +448,121 @@ textarea.msg {
   height: 5px;
   border-radius: 10px;
   background-color: #0d151e;
+}
+
+
+/* .intro-b  {
+  display: none;
+} */
+
+.nav-list {
+  display: none;
+}
+
+
+@media screen and (min-width: 992px) {
+.nav {
+  display: none;
+}
+
+.main-section {
+  width: 1440px;
+
+}
+
+
+.logo {
+  padding-left: 155px;
+  width: 228px;
+  height: 20px;
+  padding-top: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6070ff;
+  
+}
+
+  .nav-list {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-flex;
+    gap: 10px;
+    padding-top: 20px;
+    color: #344563;
+    height: 20px;
+    list-style: none;
+    padding-left: 657px;
+
+  }
+
+.intro-b {
+  background-image: url("./photos/Header-bg@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 916px;
+  margin-left: 0px;
+  background-position: 0px 0px;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  color: #172b4d;
+  font-size: 49px;
+  line-height: 52px;
+  text-align: left;
+  width: 915px;
+  padding-right: 260px;
+  padding-left: 260px;
+  padding-top: 228px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.prg {
+  position: static;
+  width: 1077px;
+  height: 98px;
+  margin-left: 0px;
+  padding-left: 260px;
+  padding-top: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+
+}
+
+.connect {
+  width: 424px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 277px;
+  line-height: 24px;
+  padding-bottom: 12px;
+  margin-left: 24px;
+
+}
+
+.ul-list-icons {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 299px;
+  padding-top: 12px;
+  padding-bottom: 136px;
+}
+
 }
