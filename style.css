@@ -585,21 +585,24 @@ h1 {
 
 .card-list {
   display: flex;
-  width: 60%;
+  width: 67%;
   margin: 124px;
-  height: 325px;
-  margin-left: 260px;
+  height: 340px;
+  margin-left: 235px;
   margin-top: 142px;
 }
 
 
 .animated {
   display: block;
-  width: 329px;
-  height: 323px;
+  width: 325px;
+  height: 301px;
   border-radius: 8px;
-  padding-left: 10px;
+  margin: 10px;
 }
 
+.desk-top {
+  display: flex;
+}
 
 }
