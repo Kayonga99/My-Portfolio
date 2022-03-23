@@ -586,8 +586,7 @@ h1 {
 .card-list {
   display: flex;
   width: 67%;
-  margin: 124px;
-  height: 340px;
+  height: 373px;
   margin-left: 235px;
   margin-top: 142px;
 }
@@ -609,28 +608,44 @@ h1 {
 
 }
 
-.cardlist-5-tech {
-  display: flex;
-  justify-content: flex-start;
+.tonic-class {
+  width: 12px;
+  margin-top: 54px;
+  height: 46px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #091E42;
 }
 
 
 .animated {
   display: block;
-  width: 325px;
-  height: 319px;
-  padding-top: 17px;
-  margin-right: 68px;
+  width: 332px;
+  height: 342px;
+  padding-top: 29px;
+  margin-right: 46px;
   border-radius: 8px;
-  /* margin: 10px; */
 }
 
 .animated-2 {
   display: block;
-  width: 325px;
-  height: 301px;
+  width: 332px;
+  height: 342px;
+  padding-top: 29px;
+  margin-left: 46px;
   border-radius: 8px;
-  margin: 10px;
+}
+
+.description {
+  width: 450px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-left: 16px;
+  padding-top: 20px;
+  padding-bottom: 12px;
 }
 
 .desk-top {
