@@ -735,15 +735,16 @@ textarea.msg {
 
   .info {
     display: none;
-  }
+  } */
 
   .cano-2 {
     display: block;
+    color: #344563;
   }
 
   .cano {
     display: none;
-  } */
+  } 
 
   .about-me {
     color: #172b4d;
