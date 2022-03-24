@@ -307,7 +307,26 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
+.frame-lang {
+  display: flex;
+  color: #000;
+  height: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
 .lang-1 {
+  display: inline-flex;
+  gap: 120px;
+  padding-top: 60px;
+  padding-left: 36px;
+  padding-bottom: 36px;
+}
+
+.lang-38 {
   display: inline-flex;
   gap: 120px;
   padding-top: 60px;
@@ -622,7 +641,7 @@ textarea.msg {
   .card-list-5 {
     display: grid;
     height: 811px;
-    grid-template-columns: 49% 51%;
+    grid-template-columns: 49% 40%;
   }
 
   .about-div {
@@ -759,6 +778,51 @@ textarea.msg {
 
   h4.connect a {
     padding-right: 112px;
+  }
+
+  .lang-1 {
+    display: inline-flex;
+    gap: 351px;
+    padding-top: 116px;
+    padding-left: 36px;
+    padding-bottom: 36px;
+  }
+
+  .lang-3 {
+    gap: 399px;
+    display: inline-flex;
+    padding-top: 18px;
+    padding-left: 36px;
+    padding-bottom: 20px;
+
+  }
+
+  .lang-38 {
+    gap: 351px;
+    padding-top: 50px;
+    padding-left: 36px;
+    padding-bottom: 21px;
+  }
+
+  .lang {
+    display: flex;
+    color: #344563;
+    height: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .frame-lang {
+    color: #344563;
+    font-size: 20px;
+    
+  }
+  .hr {
+
+    width: 507px;
+
   }
 
 }
