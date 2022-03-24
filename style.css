@@ -825,4 +825,56 @@ textarea.msg {
 
   }
 
+  /* form section */
+
+ .form-section {
+    background-image: url(./photos/contact-form-background-shapes@2x.png);
+    background-repeat: no-repeat;
+    background-position: 168px 110px;
+    background-size: 1005px;
+  }
+
+  .form-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form-prg {
+    width: 529px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+
+  }
+
+  input#name {
+    width: 379px;
+    height: 37px;
+  }
+
+  input#email {
+    width: 379px;
+    height: 37px;
+  }
+
+  textarea.msg {
+    width: 379px;
+  }
+
+  .about-btn {
+    padding: 9px;
+    border-radius: 10px;
+    border: solid 1px #396df2;
+    width: 127px;
+    margin-left: 152px;
+  }
+
+  .hr-4 {
+    display: none;
+  }
+
 }
