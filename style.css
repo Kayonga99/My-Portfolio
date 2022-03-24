@@ -554,7 +554,7 @@ textarea.msg {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    padding-left: 236px;
+    padding-left: 88px;
     line-height: 24px;
     padding-bottom: 12px;
     margin-left: 24px;
@@ -567,6 +567,27 @@ textarea.msg {
     padding-left: 260px;
     padding-top: 12px;
     padding-bottom: 136px;
+  }
+
+  .ul-list-icons-2 {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left: 112px;
+    padding-top: 25px;
+    padding-bottom: 34px;
+  }
+
+  .btn-2 {
+    color: #396df2;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: solid 1px #396df2;
+    padding-left: 12px;
+    width: 151px;
+    font-size: 17px;
+    margin-left: 112px;
   }
 
   .card-section {
@@ -599,8 +620,9 @@ textarea.msg {
   }
 
   .card-list-5 {
- display:grid;
- grid-template-columns: 40% 60%;
+    display: grid;
+    height: 811px;
+    grid-template-columns: 49% 51%;
   }
 
   .about-div {
@@ -732,7 +754,11 @@ textarea.msg {
     font-size: 18px;
     line-height: 26px;
     color: #344563;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
+  }
+
+  h4.connect a {
+    padding-right: 112px;
   }
 
 }
