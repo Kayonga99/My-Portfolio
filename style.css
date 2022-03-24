@@ -782,15 +782,9 @@ textarea.msg {
     padding-bottom: 6px;
   }
 
-/* 
-  h4.connect a {
-    padding-right: 112px;
-  } */
-
-h4.connect-text a {
+  h4.connect-text a {
     padding-left: 144px;
-    }
-  
+  }
 
   .lang-1 {
     display: inline-flex;
