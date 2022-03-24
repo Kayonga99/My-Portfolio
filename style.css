@@ -315,7 +315,6 @@ h1 {
   line-height: 24px;
   font-size: 22px;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .lang-1 {
@@ -619,23 +618,22 @@ textarea.msg {
     align-items: center;
     flex-direction: row;
     height: 400px;
-    justify-content:center;
-
+    justify-content: center;
   }
 
   .card-dsk {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
   }
-  
+
   .card-list-2 {
     width: 899px;
     display: flex;
     height: 400px;
     align-items: center;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
   }
 
   .card-list-5 {
@@ -644,40 +642,36 @@ textarea.msg {
     grid-template-columns: 49% 40%;
   }
 
-  .about-div {
-    /* width: 50%; */
-  }
-
   ul.tech-list-lang {
     display: inline-flex;
   }
 
-.tech {
-  display: flex;
-  flex-direction: column;
-  height: 92px;
-  background-color: #f7f7f9;
-  width: 109px;
-  margin-left: 36px;
-  border-radius: 10px;
-  margin-bottom: 16px;
-}
+  .tech {
+    display: flex;
+    flex-direction: column;
+    height: 92px;
+    background-color: #f7f7f9;
+    width: 109px;
+    margin-left: 36px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
 
-.tech-lang {
-  display: flex;
-  color: #253858;
-  height: 24px;
-  padding: 11px;
-  font-family: 'poppins', sans-serif;
-  font-size: 15px;
-}
+  .tech-lang {
+    display: flex;
+    color: #253858;
+    height: 24px;
+    padding: 11px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+  }
 
-.tech-lang-2 {
-  padding-left: 12px;
-  height: 55px;
-  width: 60px;
-  padding-top: 12px;
-}
+  .tech-lang-2 {
+    padding-left: 12px;
+    height: 55px;
+    width: 60px;
+    padding-top: 12px;
+  }
 
   .tonic-class {
     width: 12px;
@@ -731,7 +725,7 @@ textarea.msg {
     display: flex;
   }
 
-  .info-2 {
+  /* .info-2 {
     display: block;
     margin-right: 10px;
     margin-bottom: 4px;
@@ -749,7 +743,7 @@ textarea.msg {
 
   .cano {
     display: none;
-  }
+  } */
 
   .about-me {
     color: #172b4d;
@@ -776,9 +770,27 @@ textarea.msg {
     padding-bottom: 6px;
   }
 
+  .text {
+    padding-top: 12px;
+    width: 967px;
+    padding-left: 257px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #344563;
+    padding-bottom: 6px;
+  }
+
+/* 
   h4.connect a {
     padding-right: 112px;
-  }
+  } */
+
+h4.connect-text a {
+    padding-left: 144px;
+    }
+  
 
   .lang-1 {
     display: inline-flex;
@@ -794,7 +806,6 @@ textarea.msg {
     padding-top: 18px;
     padding-left: 36px;
     padding-bottom: 20px;
-
   }
 
   .lang-38 {
@@ -817,17 +828,15 @@ textarea.msg {
   .frame-lang {
     color: #344563;
     font-size: 20px;
-    
   }
+
   .hr {
-
     width: 507px;
-
   }
 
   /* form section */
 
- .form-section {
+  .form-section {
     background-image: url(./photos/contact-form-background-shapes@2x.png);
     background-repeat: no-repeat;
     background-position: 168px 110px;
@@ -842,13 +851,12 @@ textarea.msg {
 
   .form-prg {
     width: 529px;
-font-family: 'Poppins', sans-serif;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
   }
 
   input#name {
@@ -876,5 +884,4 @@ color: #EBEBFF;
   .hr-4 {
     display: none;
   }
-
 }
