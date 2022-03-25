@@ -16,6 +16,20 @@ body {
   flex-direction: row;
 }
 
+
+.logo {
+  color: #fff;
+  animation: rotation 2s;
+  width: 92px;
+}
+
+
+@keyframes rotation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 h1 {
   color: #172b4d;
   font-size: 49px;
@@ -467,6 +481,14 @@ textarea.msg {
   border-radius: 7px;
   padding: 12px;
   height: 170px;
+}
+
+input:hover {
+  transform: translate(20px, 10px);
+}
+
+textarea:hover {
+  transform: translate(20px, 10px);
 }
 
 .about-btn {
