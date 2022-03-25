@@ -259,7 +259,7 @@ h1 {
 
 .btn:hover {
   color: #fff;
-  background-color: #6070FF;;
+  background-color: #6070ff;
 }
 
 .btn:active {
@@ -486,7 +486,7 @@ textarea.msg {
   display: none;
 }
 
-        /** @media querry **/
+/** @media querry **/
 
 @media screen and (min-width: 768px) {
   .nav {
@@ -511,7 +511,6 @@ textarea.msg {
     list-style: none;
     padding-left: 601px;
   }
-
 
   .header {
     padding-left: 155px;
