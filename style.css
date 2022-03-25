@@ -148,6 +148,13 @@ h1 {
   list-style: circle;
 }
 
+.infor {
+  margin-right: 10px;
+  margin-bottom: 4px;
+  color: #7a869a;
+  list-style: circle;
+}
+
 .canopy {
   display: flex;
   flex-direction: row;
@@ -250,6 +257,21 @@ h1 {
   font-size: 17px;
 }
 
+.btn:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.btn:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btn:disabled {
+  color: #5e6c84;
+  background: #f4f1f0;
+}
+
 .btn-2 {
   color: #396df2;
   padding: 16px;
@@ -260,6 +282,21 @@ h1 {
   width: 151px;
   font-size: 17px;
   margin-left: 16px;
+}
+
+.btn-2:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.btn-2:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btn-2:disabled {
+  color: #5e6c84;
+  background: #f4f1f0;
 }
 
 .about-me {
@@ -285,7 +322,25 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
+.frame-lang {
+  display: flex;
+  color: #000;
+  height: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+}
+
 .lang-1 {
+  display: inline-flex;
+  gap: 120px;
+  padding-top: 60px;
+  padding-left: 36px;
+  padding-bottom: 36px;
+}
+
+.lang-38 {
   display: inline-flex;
   gap: 120px;
   padding-top: 60px;
@@ -426,10 +481,407 @@ textarea.msg {
   font-size: 17px;
 }
 
+.about-btn:hover {
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.about-btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.about-btn:disabled {
+  color: #5e6c84;
+  background: #f4f1f0;
+}
+
 .hr-4 {
   margin-left: 98px;
   width: 137px;
   height: 5px;
   border-radius: 10px;
   background-color: #0d151e;
+}
+
+.nav-list {
+  display: none;
+}
+
+.animated {
+  display: none;
+}
+
+.animated-2 {
+  display: none;
+}
+
+/* @media querry */
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .main-section {
+    width: 100%;
+  }
+
+  ul.nav-list {
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-flex;
+    gap: 10px;
+    padding-top: 20px;
+    color: rgb(52, 69, 99);
+    height: 20px;
+    padding-right: 56px;
+    list-style: none;
+    padding-left: 601px;
+  }
+
+  .header {
+    padding-left: 155px;
+    width: 100%;
+    height: 48px;
+  }
+
+  a.logo {
+    width: 228px;
+    height: 20px;
+    padding-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #6070ff;
+  }
+
+  .intro-b {
+    background-image: url("./photos/Header-bg@2x.png");
+    background-repeat: no-repeat;
+    background-size: 89%;
+    height: 916px;
+    background-position: 111px 55px;
+    background-color: #fff;
+  }
+
+  h1 {
+    color: #172b4d;
+    font-size: 49px;
+    line-height: 52px;
+    text-align: left;
+    width: 915px;
+    padding-right: 260px;
+    padding-left: 260px;
+    padding-top: 228px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .connect {
+    width: 424px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 88px;
+    line-height: 24px;
+    padding-bottom: 12px;
+    margin-left: 24px;
+  }
+
+  .ul-list-icons {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left: 260px;
+    padding-top: 12px;
+    padding-bottom: 136px;
+  }
+
+  .ul-list-icons-2 {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left: 112px;
+    padding-top: 25px;
+    padding-bottom: 34px;
+  }
+
+  .btn-2 {
+    color: #396df2;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: solid 1px #396df2;
+    padding-left: 12px;
+    width: 151px;
+    font-size: 17px;
+    margin-left: 112px;
+  }
+
+  .card-section {
+    width: 100%;
+  }
+
+  .card-list {
+    width: 899px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    justify-content: center;
+  }
+
+  .card-dsk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-list-2 {
+    width: 899px;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card-list-5 {
+    display: grid;
+    height: 811px;
+    grid-template-columns: 49% 40%;
+  }
+
+  ul.tech-list-lang {
+    display: inline-flex;
+  }
+
+  .tech {
+    display: flex;
+    flex-direction: column;
+    height: 92px;
+    background-color: #f7f7f9;
+    width: 109px;
+    margin-left: 36px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+
+  .tech-lang {
+    display: flex;
+    color: #253858;
+    height: 24px;
+    padding: 11px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+  }
+
+  .tech-lang-2 {
+    padding-left: 12px;
+    height: 55px;
+    width: 60px;
+    padding-top: 12px;
+  }
+
+  .tonic-class {
+    width: 12px;
+    margin-top: 54px;
+    height: 46px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #091e42;
+  }
+
+  .tonic-class-2 {
+    width: 300px;
+    height: 36px;
+    margin-top: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #172b4d;
+  }
+
+  .animated {
+    display: block;
+    width: 332px;
+    height: 342px;
+    margin-right: 46px;
+    border-radius: 8px;
+  }
+
+  .animated-2 {
+    display: block;
+    width: 332px;
+    height: 342px;
+    padding-top: 29px;
+    margin-left: 46px;
+    border-radius: 8px;
+  }
+
+  .description {
+    width: 450px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding-left: 16px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+  }
+
+  .desk-top {
+    display: flex;
+  }
+
+  .about-me {
+    color: #172b4d;
+    font-size: 49px;
+    line-height: 52px;
+    text-align: left;
+    width: 327px;
+    padding-left: 111px;
+    padding-top: 92px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: flex;
+  }
+
+  .prg {
+    padding-top: 12px;
+    width: 556px;
+    padding-left: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #344563;
+    padding-bottom: 6px;
+  }
+
+  .text {
+    padding-top: 12px;
+    width: 967px;
+    padding-left: 257px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #344563;
+    padding-bottom: 6px;
+  }
+
+  h4.connect-text a {
+    padding-left: 144px;
+  }
+
+  .lang-1 {
+    display: inline-flex;
+    gap: 351px;
+    padding-top: 116px;
+    padding-left: 36px;
+    padding-bottom: 36px;
+  }
+
+  .lang-3 {
+    gap: 399px;
+    display: inline-flex;
+    padding-top: 18px;
+    padding-left: 36px;
+    padding-bottom: 20px;
+  }
+
+  .lang-38 {
+    gap: 351px;
+    padding-top: 50px;
+    padding-left: 36px;
+    padding-bottom: 21px;
+  }
+
+  .lang {
+    display: flex;
+    color: #344563;
+    height: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .frame-lang {
+    color: #344563;
+    font-size: 20px;
+  }
+
+  .hr {
+    width: 507px;
+  }
+
+  /* form section */
+
+  .form-section {
+    background-image: url(./photos/contact-form-background-shapes@2x.png);
+    background-repeat: no-repeat;
+    background-position: 168px 110px;
+    background-size: 1005px;
+  }
+
+  .form-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form-prg {
+    width: 529px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  input#name {
+    width: 379px;
+    height: 37px;
+  }
+
+  input#email {
+    width: 379px;
+    height: 37px;
+  }
+
+  textarea.msg {
+    width: 379px;
+  }
+
+  .about-btn {
+    padding: 9px;
+    border-radius: 10px;
+    border: solid 1px #396df2;
+    width: 127px;
+    margin-left: 152px;
+  }
+
+  .hr-4 {
+    display: none;
+  }
 }
