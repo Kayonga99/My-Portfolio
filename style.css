@@ -518,7 +518,7 @@ textarea.msg {
   display: none;
 }
 
-/** @media querry **/
+/* @media querry */
 
 @media screen and (min-width: 768px) {
   .nav {
