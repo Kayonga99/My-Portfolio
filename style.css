@@ -486,14 +486,6 @@ textarea.msg {
   display: none;
 }
 
-.cano-2 {
-  display: none;
-}
-
-.info-2 {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   .nav {
     display: none;
@@ -724,27 +716,6 @@ textarea.msg {
   .desk-top {
     display: flex;
   }
-
-  /* .info-2 {
-    display: block;
-    margin-right: 10px;
-    margin-bottom: 4px;
-    color: #7a869a;
-    list-style: circle;
-  }
-
-  .info {
-    display: none;
-  } */
-
-  .cano-2 {
-    display: block;
-    color: #344563;
-  }
-
-  .cano {
-    display: none;
-  } 
 
   .about-me {
     color: #172b4d;
