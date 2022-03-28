@@ -64,6 +64,13 @@ h1 {
   display: flex;
   align-items: center;
   color: #6070ff;
+  animation: rotation 2s;
+}
+
+@keyframes rotation {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .intro {
@@ -467,6 +474,14 @@ textarea.msg {
   border-radius: 7px;
   padding: 12px;
   height: 170px;
+}
+
+input:hover {
+  transform: translate(20px, 10px);
+}
+
+textarea:hover {
+  transform: translate(20px, 10px);
 }
 
 .about-btn {
