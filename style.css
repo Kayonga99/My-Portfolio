@@ -522,7 +522,7 @@ textarea:hover {
 }
 
 .nav-list {
-  display: ;
+  display: none;
 
 }
 
@@ -540,9 +540,8 @@ textarea:hover {
 
 
 .popup-menu {
-  /* display: none; */
+  display: none;
   background-color: #6070FF;
-  display: flex;
   left: 0px;
 right: 0px;
 top: 0px;
@@ -563,7 +562,6 @@ height: 24px;
 left: 0px;
 right: 68px;
 top: calc(50% - 24px/2);
-
 font-family: 'Poppins' sans-serif;
 font-style: normal;
 font-weight: 600;
@@ -604,15 +602,23 @@ padding-left: 292px;
   }
 
   .menu-up {
+    display: block;
+    
+  }
+
+
+  .close {
     display: none;
   }
 
   .popup-menu {
     display: none;
   }
+  
 
   ul.nav-list {
-    font-family: poppins, sans-serif;
+    display: block;
+    font-family: 'poppins', sans-serif;
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
@@ -625,6 +631,23 @@ padding-left: 292px;
     list-style: none;
     padding-left: 601px;
   }
+
+  /* .popup-menu {
+    display: block;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-flex;
+    gap: 10px;
+    padding-top: 20px;
+    color: rgb(52, 69, 99);
+    height: 20px;
+    padding-right: 56px;
+    list-style: none;
+    padding-left: 601px;
+    background-color: #fff;
+  } */
 
   .header {
     padding-left: 155px;
