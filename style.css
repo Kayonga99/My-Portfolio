@@ -523,9 +523,7 @@ textarea:hover {
 
 .nav-list {
   display: none;
-
 }
-
 
 .animated {
   display: none;
@@ -537,36 +535,33 @@ textarea:hover {
 
 /* mobile-menu */
 
-
-
 .popup-menu {
   display: none;
-  background-color: #6070FF;
-  left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-mix-blend-mode: multiply;
-flex-direction: column;
-position: absolute;
-
+  background-color: #6070ff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  flex-direction: column;
+  position: absolute;
 }
 
 .menu-up {
-display: flex;
-gap: 20px;
-flex-direction: column;
-margin-top: 30px;
-padding-left: 28px;
-height: 24px;
-left: 0px;
-right: 68px;
-top: calc(50% - 24px/2);
-font-family: 'Poppins' sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-left: 28px;
+  height: 24px;
+  left: 0;
+  right: 68px;
+  top: calc(50% - 24px / 2);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .menu-up li a {
@@ -574,18 +569,12 @@ line-height: 44px;
 }
 
 .close {
-cursor: pointer;
-border: none;
-background: none;
-outline: none;
-font-size: 1.5rem;
-cursor: pointer;
-border: none;
-background: none;
-outline: none;
-font-size: 3.5rem;
-padding-left: 292px;
-
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 3.5rem;
+  padding-left: 292px;
 }
 
 
@@ -601,28 +590,28 @@ padding-left: 292px;
     width: 100%;
   }
 
+  /*
   .menu-up {
     display: block;
-    
-  }
 
+  }
 
   .close {
     display: none;
   }
 
   .popup-menu {
-    display: none;
-  }
-  
-
-  ul.nav-list {
     display: block;
+  }
+
+   */
+
+  ul.nav-list li {
     font-family: 'poppins', sans-serif;
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
-    display: inline-flex;
+    display: inline-block;
     gap: 10px;
     padding-top: 20px;
     color: rgb(52, 69, 99);
@@ -631,23 +620,6 @@ padding-left: 292px;
     list-style: none;
     padding-left: 601px;
   }
-
-  /* .popup-menu {
-    display: block;
-    font-family: 'poppins', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 500;
-    display: inline-flex;
-    gap: 10px;
-    padding-top: 20px;
-    color: rgb(52, 69, 99);
-    height: 20px;
-    padding-right: 56px;
-    list-style: none;
-    padding-left: 601px;
-    background-color: #fff;
-  } */
 
   .header {
     padding-left: 155px;
