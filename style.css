@@ -522,8 +522,10 @@ textarea:hover {
 }
 
 .nav-list {
-  display: none;
+  display: ;
+
 }
+
 
 .animated {
   display: none;
@@ -532,6 +534,63 @@ textarea:hover {
 .animated-2 {
   display: none;
 }
+
+/* mobile-menu */
+
+
+
+.popup-menu {
+  /* display: none; */
+  background-color: #6070FF;
+  display: flex;
+  left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+mix-blend-mode: multiply;
+flex-direction: column;
+position: absolute;
+
+}
+
+.menu-up {
+display: flex;
+gap: 20px;
+flex-direction: column;
+margin-top: 30px;
+padding-left: 28px;
+height: 24px;
+left: 0px;
+right: 68px;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins' sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+}
+
+.menu-up li a {
+  color: #fff;
+}
+
+.close {
+cursor: pointer;
+border: none;
+background: none;
+outline: none;
+font-size: 1.5rem;
+cursor: pointer;
+border: none;
+background: none;
+outline: none;
+font-size: 3.5rem;
+padding-left: 292px;
+
+}
+
+
 
 /* @media querry */
 
@@ -542,6 +601,14 @@ textarea:hover {
 
   .main-section {
     width: 100%;
+  }
+
+  .menu-up {
+    display: none;
+  }
+
+  .popup-menu {
+    display: none;
   }
 
   ul.nav-list {
