@@ -561,8 +561,9 @@ textarea:hover {
   background: none;
   outline: none;
   font-size: 3.5rem;
+  padding-top: 12px;
   padding-left: 290px;
-  color: black;
+  color: #fff;
 }
 
 .menu-up a {
