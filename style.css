@@ -536,12 +536,11 @@ textarea:hover {
 /* mobile-menu */
 
 .pop-up {
-  background-color: rgba(96, 112, 255,1);
+  background-color: rgba(96, 112, 255,0.8);
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  mix-blend-mode: multiply;
   flex-direction: column;
   position: absolute;
   display: flex;
@@ -553,9 +552,7 @@ textarea:hover {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-border-radius: 0px;
-/* opacity: 0.5; */
-z-index: 1;
+  border-radius: 0px;
 
 }
 
