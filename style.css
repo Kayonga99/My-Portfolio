@@ -536,7 +536,7 @@ textarea:hover {
 /* mobile-menu */
 
 .pop-up {
-  background-color: rgba(96, 112, 255,0.8);
+  background-color: rgba(96, 112, 255, 0.8);
   left: 0;
   right: 0;
   top: 0;
@@ -552,8 +552,7 @@ textarea:hover {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  border-radius: 0px;
-
+  border-radius: 0;
 }
 
 .pop-up .close {
@@ -582,11 +581,9 @@ textarea:hover {
     width: 100%;
   }
 
-    
   .close {
     display: none;
   }
-
 
   ul.nav-list {
     font-family: 'poppins', sans-serif;
@@ -601,12 +598,10 @@ textarea:hover {
     padding-right: 56px;
     list-style: none;
     padding-left: 601px;
-    
   }
 
   .menu-up a {
     color: rgb(52, 69, 99);
-
   }
 
   .header {
