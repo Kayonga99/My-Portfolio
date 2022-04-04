@@ -601,6 +601,12 @@ textarea:hover {
     padding-right: 56px;
     list-style: none;
     padding-left: 601px;
+    
+  }
+
+  .menu-up a {
+    color: rgb(52, 69, 99);
+
   }
 
   .header {
