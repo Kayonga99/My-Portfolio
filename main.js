@@ -1,13 +1,17 @@
 const listItem = document.querySelector(".nav-list")
-const openMenu = document.querySelector(".nav")
+const bars = document.getElementById('pop')
 const closeMenu = document.querySelector(".close")
-const popUp = document.querySelector(".popup-menu")
+const popUp = document.querySelector(".menu-up")
 
 
-openMenu.addEventListener("click", () => {
-    popUp.style.display = "block"
+// listItem.addEventListener("click", () => {
+// listItem.style.display = "block"
+// })
+bars.addEventListener("click", () => {
+    console.log(12);
+    popUp.classList.add('pop-up')
 })
 
-closeMenu.addEventListener("click", () => {
-    popUp.style.display = "none"
-})
+// closeMenu.addEventListener("click", () => {
+//     popUp.style.display = "none"
+// })

@@ -535,8 +535,7 @@ textarea:hover {
 
 /* mobile-menu */
 
-.popup-menu {
-  display: none;
+.pop-up {
   background-color: #6070ff;
   left: 0;
   right: 0;
@@ -545,18 +544,10 @@ textarea:hover {
   mix-blend-mode: multiply;
   flex-direction: column;
   position: absolute;
-}
-
-.menu-up {
   display: flex;
+  color: #fff;
   gap: 20px;
-  flex-direction: column;
-  margin-top: 30px;
   padding-left: 28px;
-  height: 24px;
-  left: 0;
-  right: 68px;
-  top: calc(50% - 24px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -564,19 +555,15 @@ textarea:hover {
   line-height: 44px;
 }
 
-.menu-up li a {
-  color: #fff;
-}
-
-.close {
+.pop-up .close {
   cursor: pointer;
   border: none;
   background: none;
   outline: none;
   font-size: 3.5rem;
-  padding-left: 292px;
+  padding-left: 290px;
+  color: black;
 }
-
 
 
 /* @media querry */
@@ -590,28 +577,18 @@ textarea:hover {
     width: 100%;
   }
 
-  /*
-  .menu-up {
-    display: block;
-
-  }
-
+    
   .close {
     display: none;
   }
 
-  .popup-menu {
-    display: block;
-  }
 
-   */
-
-  ul.nav-list li {
+  ul.nav-list {
     font-family: 'poppins', sans-serif;
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
-    display: inline-block;
+    display: inline-flex;
     gap: 10px;
     padding-top: 20px;
     color: rgb(52, 69, 99);
