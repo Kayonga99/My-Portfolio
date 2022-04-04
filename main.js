@@ -9,3 +9,7 @@ bars.addEventListener('click', () => {
 closeMenu.addEventListener('click', () => {
   popUp.classList.remove('pop-up');
 });
+
+popUp.addEventListener('click', () => {
+    popUp.classList.remove('pop-up');
+})
