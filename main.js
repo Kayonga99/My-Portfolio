@@ -11,5 +11,5 @@ closeMenu.addEventListener('click', () => {
 });
 
 popUp.addEventListener('click', () => {
-    popUp.classList.remove('pop-up');
-})
+  popUp.classList.remove('pop-up');
+});
