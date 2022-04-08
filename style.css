@@ -685,6 +685,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 margin: 12px 0px;
+padding-top: 35px;
 }
 
 .card-list-23 {
@@ -692,13 +693,15 @@ margin: 12px 0px;
   flex-direction: column;
 
   width: 1029px;
-  height: 781px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
+  height: 918px;
   box-sizing: border-box;
   border-radius: 16px;
   margin-left: 16px;
   margin-top: 24px;
+background: #FFFFFF;
+border: 1px solid #EBECF0;
+box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+border-radius: 16px;
 }
 
 img.nature-animated {
@@ -719,6 +722,7 @@ img.nature-animated {
 .div-src {
   display: flex;
   flex-direction: column;
+  padding-top: 53px;
 }
 
 .close-x {
