@@ -570,6 +570,20 @@ textarea:hover {
   color: #fff;
 }
 
+
+/* mobile.pop-up */
+
+.x-class {
+  display: inline-flex;
+}
+
+.close-x {
+  font-size: 24px;
+  padding-top: 11px;
+  color: #67798E;
+
+}
+
 /* @media querry */
 
 @media screen and (min-width: 768px) {
