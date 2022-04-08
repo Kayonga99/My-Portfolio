@@ -15,6 +15,8 @@ popUp.addEventListener('click', () => {
 });
 
 
+
+
 // cards
 const cardsUl = document.getElementById('cards');
 
@@ -91,3 +93,23 @@ ${card.description}
 `).join('');
 
 cardsUl.innerHTML += projectCards;
+
+
+
+
+// window-popup
+
+const clickButton = document.querySelectorAll(".btn")
+const openWindow = document.querySelector(".m-popUp")
+const closeWindow = document.querySelector(".close-x")
+
+clickButton.forEach(element => {
+  element.addEventListener('click', () => {
+    openWindow.style.display = "block"
+
+  })
+});
+
+closeWindow.addEventListener('click', () => {
+  openWindow.style.display = "none";
+})
