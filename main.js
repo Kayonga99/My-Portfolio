@@ -40,7 +40,7 @@ const projects = [
   },
   {
     id: 2,
-    heading1: 'Tonic',
+    heading1: 'Multi-Post Stories',
     heading2: ['Canopy', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     featuredImage: './photos/multi-post.png',
@@ -81,7 +81,7 @@ const projects = [
   },
   {
     id: 4,
-    heading1: 'Tonic',
+    heading1: 'Multi-Post Stories',
     heading2: ['Canopy', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     featuredImage: './photos/Snapshoot-pro.png',
@@ -111,7 +111,7 @@ const projectCards = projects.map((card) => `
     <img class="card" src="${card.featuredImage}" alt="work1Snapshot" />
 
     <div class="">
-      <h3 class="tonic-class">${card.heading1}</h3>
+      <h3 class="tonic-class tonic-class-2">${card.heading1}</h3>
       <div class="canopy">
         <ul class="cards-ul">
         ${card.heading2.map((heading, index) => `<li class="info${index}">${heading}</li>`).join('')}
@@ -152,8 +152,8 @@ function popData(card) {
 
           </ul>
         </div>
-        <img class="card" src="./photos/Snapshoot-Portfolio.png" alt="work1Snapshot" />
-        <img class="nature-animated" src="./photos/window-up.png" alt="nature animated picture" />
+        <img class="card" src="${cards.featuredImage}" alt="work1Snapshot" />
+        <img class="nature-animated" src="${card.featuredImage2}" alt="nature animated picture" />
         <div class="src-div">
 
       <p class="src-description">
