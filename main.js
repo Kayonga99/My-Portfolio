@@ -143,14 +143,13 @@ function popData(card) {
   <div class="desk-top">
     <div class="">
       <div class="x-class">
-        <h3 class="tonic-class-23">${card.heading}</h3>
+        <h3 class="tonic-class-23">${card.heading1}</h3>
         <h4 class="close-x">&times;</h4>
       </div>
         <div class="canopy">
           <ul class="cards-ul">
-            <li class="cano">CANOPY</li>
-            <li class="info">Back End Dev</li>
-            <li class="info">2015</li>
+          ${card.heading2.map((heading, index) => `<li class="info${index}">${heading}</li>`).join('')}
+
           </ul>
         </div>
         <img class="card" src="./photos/Snapshoot-Portfolio.png" alt="work1Snapshot" />

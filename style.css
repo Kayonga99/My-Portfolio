@@ -673,10 +673,6 @@ img.nature-animated {
   }
 
   .src-description {
-    display: none;
-  }
-
-  .src-description-3 {
     display: block;
     width: 778px;
     height: 382px;
@@ -697,7 +693,7 @@ img.nature-animated {
     display: flex;
     flex-direction: column;
     width: 1090px;
-    height: 918px;
+    height: 786px;
     box-sizing: border-box;
     border-radius: 16px;
     margin-top: 24px;
