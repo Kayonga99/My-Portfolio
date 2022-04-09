@@ -714,12 +714,13 @@ img.nature-animated {
     margin-left: 142px;
   }
 
-  .tools-li-src {
+  li.tools-li-src {
     background-color: #ebebff;
     padding: 5px 10px;
     width: 52px;
     border-radius: 8px;
     padding-left: 11px;
+    
   }
 
   img.nature-animated {
