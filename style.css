@@ -994,6 +994,11 @@ img.nature-animated {
     display: flex;
   }
 
+  .desk-top2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .about-me {
     color: #172b4d;
     font-size: 49px;
