@@ -194,3 +194,19 @@ function showPop(id) {
     }
   });
 }
+
+function validateEmail(email, event, errorMsg) {
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    const msg = document.getElementById('email');
+    msg.innerText = errorMsg;
+    msg.style.color = 'red';
+    msg.style.fontSize = '15px';
+  }
+}
+const form = document.getElementById('form');
+form.addEventListener('submit', (event) => {
+  const errorMessage = 'Please enter an email address without any upper-case letters.';
+  validateEmail(form.elements.email.value, event,);
+});
+
