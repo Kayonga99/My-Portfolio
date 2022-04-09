@@ -117,9 +117,7 @@ const projectsWindow = popUpWindowData.map((project, index) => `
     </div>
       <div class="canopy">
         <ul class="cards-ul">
-          <li class="cano">CANOPY</li>
-          <li class="info">Back End Dev</li>
-          <li class="info">2015</li>
+${project.heading2}
         </ul>
       </div>
       <img class="card" src="${project.featuredImage}" alt="work1Snapshot" />
@@ -148,7 +146,6 @@ ${project.description2}
   </div>
   </div>
 </section>
-
 `
 
 ).join('');
