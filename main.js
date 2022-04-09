@@ -160,7 +160,7 @@ function popData(card) {
         ${card.description2}
       </p>
       <div class="div-src">
-      <ul class="tools src-tools">
+      <ul class="tools-src src-tools">
         <li class="tools-li-src"> html</li>
         <li class="tools-li-src">css</li>
         <li class="tools-li">javaScript</li>
@@ -183,7 +183,6 @@ function popData(card) {
   closeWindow.addEventListener('click', () => {
     openWindow.style.display = 'none';
   });
-
 }
 
 /* eslint-disable */;

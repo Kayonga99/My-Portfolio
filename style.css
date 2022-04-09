@@ -148,7 +148,9 @@ h1 {
   margin: 12px 0;
 }
 
-.info, .info1, .info2 {
+.info,
+.info1,
+.info2 {
   margin-right: 10px;
   margin-bottom: 4px;
   color: #7a869a;
@@ -635,6 +637,7 @@ textarea:hover {
   height: 220px;
   padding-bottom: 8px;
 }
+
 .src-description-3 {
   display: none;
 }
@@ -649,6 +652,14 @@ a.src-btn {
   width: 133px;
   margin-right: 4px;
   margin-left: 10px;
+}
+
+.tools-src {
+  color: #6070ff;
+  display: flex;
+  gap: 8px;
+  margin-left: 18px;
+  padding-bottom: 20px;
 }
 
 img.nature-animated {
@@ -673,8 +684,8 @@ img.nature-animated {
 
   .src-description {
     display: block;
-    width: 778px;
-    height: 382px;
+    width: 745px;
+    height: 381px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
