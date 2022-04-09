@@ -570,7 +570,6 @@ textarea:hover {
   color: #fff;
 }
 
-
 /* mobile.pop-up */
 
 .x-class {
@@ -636,6 +635,9 @@ textarea:hover {
   height: 220px;
   padding-bottom: 8px;
 }
+.src-description-3 {
+  display: none;
+}
 
 .src-btn {
   color: #396df2;
@@ -650,22 +652,24 @@ textarea:hover {
   margin-left: 10px;
 }
 
-
+img.nature-animated {
+  display: none;
+}
 
 /* @media querry */
 
 @media screen and (min-width: 768px) {
   .m-popUp {
-    position: absolute;
-    margin-top: 12px;
+    position: fixed;
     left: 0;
     padding-bottom: 500px;
     right: 0;
     height: 186%;
     top: 0;
+    overflow-y: scroll;
     width: 100%;
-    bottom: -260px;
-    background-color: #c1c7d0;
+    bottom: 0;
+    background-color: rgba(193, 199, 208, 0.5);
   }
 
   .src-description {
@@ -673,6 +677,7 @@ textarea:hover {
   }
 
   .src-description-3 {
+    display: block;
     width: 778px;
     height: 382px;
     font-family: 'Poppins', sans-serif;
