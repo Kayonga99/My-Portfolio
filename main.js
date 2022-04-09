@@ -202,11 +202,12 @@ function validateEmail(email, event, errorMsg) {
     msg.innerText = errorMsg;
     msg.style.color = 'red';
     msg.style.fontSize = '15px';
+    console.log(123);
   }
 }
 const form = document.getElementById('form');
 form.addEventListener('submit', (event) => {
   const errorMessage = 'Please enter an email address without any upper-case letters.';
-  validateEmail(form.elements.email.value, event,);
+  validateEmail(form.elements.email.value, event, errorMessage);
 });
 
