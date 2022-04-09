@@ -24,36 +24,40 @@ const projects = [
     heading2: ['Canopy', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     featuredImage: './photos/Snapshoot-Portfolio.png',
+    featuredImage2: './photos/Snapshoot-Portfolio-2.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
   },
   {
-    id: 1,
+    id: 2,
     heading1: 'Tonic',
     heading2: ['Canopy', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     featuredImage: './photos/multi-post.png',
+    featuredImage2: './photos/Snapshoot+Portfolio.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
   },
   {
-    id: 1,
+    id: 3,
     heading1: 'Tonic',
     heading2: ['Canopy', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './photos/Snapshoot-Portfolio.png',
+    featuredImage: './photos/Snapshoot-yonga.png',
+    featuredImage2: './photos/Snapshoot-Portfolio.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
   },
   {
-    id: 1,
+    id: 4,
     heading1: 'Tonic',
     heading2: ['Canopy', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     featuredImage: './photos/Snapshoot-pro.png',
+    featuredImage2: './photos/multi-post.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
@@ -61,11 +65,13 @@ const projects = [
 
 ];
 
-const projectCards = projects.map((card) => `
+const projectCards = projects.map((card, index) => `
 <li>
 <section class="card-list">
   <div class="desk-top">
-    <img class="animated" src="${card.featuredImage}" alt="work1Snapshot" />
+    <img class="animated" src="${card.featuredImage2}" alt="work1Snapshot" />
+    <img class="card" src="${card.featuredImage}" alt="work1Snapshot" />
+
     <div class="">
       <h3 class="tonic-class">${card.heading1}</h3>
       <div class="canopy">
