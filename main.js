@@ -169,8 +169,8 @@ function popData(card) {
         <li class="extra">Bootstraps  </li>
       </ul>
       <div class="view-project">
-        <button class="src-btn" type="button">See live <img src="./photos/icons/btn-icon.png" alt="button-icon"> </button>
-        <button class="src-btn" type="button">See Source <img src="./photos/icons/blue-github.png" alt="github-icon"> </button>
+        <a class="src-btn">See live <img src="./photos/icons/btn-icon.png" alt="button-icon"> </a>
+        <a class="src-btn">See Source <img src="./photos/icons/blue-github.png" alt="github-icon"> </a>
       </div>
     </div>
     </div>

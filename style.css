@@ -148,7 +148,7 @@ h1 {
   margin: 12px 0;
 }
 
-.info {
+.info, .info1, .info2 {
   margin-right: 10px;
   margin-bottom: 4px;
   color: #7a869a;
@@ -639,16 +639,15 @@ textarea:hover {
   display: none;
 }
 
-.src-btn {
+a.src-btn {
   color: #396df2;
-  padding: 10px;
+  padding: 11px;
   border-radius: 10px;
   background-color: #fff;
   border: solid 1px #396df2;
-  padding-left: 5px;
-  width: 130px;
+  padding-left: 24px;
+  width: 133px;
   margin-right: 4px;
-  font-size: 15px;
   margin-left: 10px;
 }
 
