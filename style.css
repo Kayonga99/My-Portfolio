@@ -669,6 +669,8 @@ img.nature-animated {
   display: none;
   color: red;
   padding: 10px;
+  margin-left: 21px;
+  width: 331px;
   border-radius: 8px;
   background: #fff;
 }
