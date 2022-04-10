@@ -31,7 +31,6 @@ const projects = [
      and scrambled it to make a type specimen book.
      It has survived not only five centuries, 
      but also the leap into electronic typesetting, remaining essent`,
-
     featuredImage: './photos/Snapshoot-Portfolio.png',
     featuredImage2: './photos/Snapshoot-Portfolio-2.png',
     languages: ['html', 'css', 'javascript'],
@@ -52,7 +51,6 @@ const projects = [
      and scrambled it to make a type specimen book.
      It has survived not only five centuries, 
      but also the leap into electronic typesetting, remaining essent`,
-
     featuredImage2: './photos/Snapshoot+Portfolio.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
@@ -73,7 +71,6 @@ const projects = [
      and scrambled it to make a type specimen book.
      It has survived not only five centuries, 
      but also the leap into electronic typesetting, remaining essent`,
-
     featuredImage2: './photos/Snapshoot-Portfolio.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
@@ -93,7 +90,6 @@ const projects = [
      and scrambled it to make a type specimen book.
      It has survived not only five centuries, 
      but also the leap into electronic typesetting, remaining essent`,
-
     featuredImage2: './photos/multi-post.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
@@ -152,7 +148,7 @@ function popData(card) {
 
           </ul>
         </div>
-        <img class="card" src="${cards.featuredImage}" alt="work1Snapshot" />
+        <img class="card" src="${card.featuredImage}" alt="work1Snapshot" />
         <img class="nature-animated" src="${card.featuredImage2}" alt="nature animated picture" />
         <div class="src-div">
 
