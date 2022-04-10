@@ -675,7 +675,7 @@ img.nature-animated {
     right: 0;
     height: 186%;
     top: 0;
-    /* overflow-y: scroll; */
+     overflow-y: scroll;
     width: 100%;
     bottom: 0;
     background-color: rgba(193, 199, 208, 0.9);
@@ -698,8 +698,8 @@ img.nature-animated {
   .card-list-23 {
     display: flex;
     flex-direction: column;
-    width: 1090px;
-    height: 786px;
+    width: 1058px;
+    height: 582px;
     box-sizing: border-box;
     border-radius: 16px;
     margin-top: 24px;
@@ -729,10 +729,6 @@ img.nature-animated {
     display: inline-flex;
   }
 
-  .view-project {
-    display: flex;
-  }
-
   .src-tools {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -747,7 +743,7 @@ img.nature-animated {
   .close-x {
     font-size: 24px;
     padding-top: 11px;
-    margin-left: 736px;
+    margin-left: 704px;
     color: #67798e;
   }
 
