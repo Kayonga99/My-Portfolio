@@ -675,27 +675,24 @@ img.nature-animated {
     right: 0;
     height: 186%;
     top: 0;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     width: 100%;
     bottom: 0;
-    background-color: rgba(193, 199, 208, 0.5);
+    background-color: rgba(193, 199, 208, 0.9);
   }
 
   .src-description {
     display: block;
-    width: 745px;
-    height: 381px;
+    width: 714px;
+    height: 220px;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 24px;
     color: #344563;
     flex: none;
-    order: 0;
-    flex-grow: 0;
     margin: 12px 0;
-    padding-top: 35px;
+    padding-top: 25px;
   }
 
   .card-list-23 {
@@ -723,8 +720,9 @@ img.nature-animated {
 
   img.nature-animated {
     display: block;
-    width: 1036px;
-    height: 493px;
+    width: 981px;
+    height: 354px;
+    margin-left: 15px;
   }
 
   .src-div {
@@ -743,7 +741,7 @@ img.nature-animated {
   .div-src {
     display: flex;
     flex-direction: column;
-    padding-top: 53px;
+    padding-top: 24px;
   }
 
   .close-x {
