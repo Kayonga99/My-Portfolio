@@ -1,6 +1,6 @@
 # My-Portfolio
 
-> Portfolio Desktop version .
+> Portfolio Window pop-Up.
 
 ![setup m-version skeleton](./photos/shots/screenshot1.png)
 ![portfolio mobile version](./photos/shots/screenshot2.png)
