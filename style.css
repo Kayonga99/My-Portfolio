@@ -678,6 +678,15 @@ img.nature-animated {
 /* @media querry */
 
 @media screen and (min-width: 768px) {
+  #form-div {
+    display: none;
+    color: red;
+    padding: 10px;
+    margin-left: 26px;
+    width: 374px;
+    border-radius: 8px;
+    background: #fff;
+  }
   .m-popUp {
     position: fixed;
     left: 0;
