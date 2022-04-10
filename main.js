@@ -128,14 +128,14 @@ ${card.description}
 </li>
 `).join('');
 
-cardsUl.innerHTML += projectCards;
+cardsUl.innerHTML = projectCards;
 
 // POPUP DATA
 const openWindow = document.querySelector('.m-popUp');
 
 function popData(card) {
   const temp = document.createElement('template');
-  temp.innerHTML = `<section class="card-list-23">
+  temp.innerHTML += `<section class="card-list-23">
   <div class="desk-top">
     <div class="">
       <div class="x-class">
@@ -190,3 +190,27 @@ function showPop(id) {
     }
   });
 }
+
+// form validation
+
+function validateEmail(email, event, errorMsg) {
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    const msg = document.getElementById('form-div');
+    msg.style.display = 'block';
+    msg.innerText = errorMsg;
+    // msg.style.color = 'red';
+    msg.style.fontSize = '15px';
+  }
+}
+const form = document.getElementById('form');
+const email = document.getElementById('email')
+
+email.addEventListener('click',() => {
+  const msg = document.getElementById('form-div');
+  msg.style.display = 'none';
+})
+form.addEventListener('submit', (event) => {
+  const errorMessage = 'Please enter an email address without any upper-case letters.';
+  validateEmail(form.elements.email.value, event, errorMessage);
+});

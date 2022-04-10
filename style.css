@@ -664,6 +664,14 @@ a.src-btn {
 img.nature-animated {
   display: none;
 }
+#form-div {
+  display: none;
+  color: red;
+  padding:10px;
+  border-radius:8px;
+  background: #fff;
+
+}
 
 /* @media querry */
 
