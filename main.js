@@ -199,7 +199,6 @@ function validateEmail(email, event, errorMsg) {
     const msg = document.getElementById('form-div');
     msg.style.display = 'block';
     msg.innerText = errorMsg;
-    // msg.style.color = 'red';
     msg.style.fontSize = '15px';
   }
 }
