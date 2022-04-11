@@ -669,11 +669,12 @@ img.nature-animated {
 
 @media screen and (min-width: 768px) {
   .m-popUp {
+    overflow: scroll;
     position: fixed;
     left: 0;
     padding-bottom: 500px;
     right: 0;
-    height: 186%;
+    height: 186%; 
     top: 0;
     width: 100%;
     bottom: 0;
@@ -698,7 +699,7 @@ img.nature-animated {
     display: flex;
     flex-direction: column;
     width: 1058px;
-    height: 582px;
+    height: 956px;
     box-sizing: border-box;
     border-radius: 16px;
     margin-top: 24px;
@@ -720,7 +721,7 @@ img.nature-animated {
   img.nature-animated {
     display: block;
     width: 981px;
-    height: 354px;
+    height: 59%;
     margin-left: 15px;
   }
 

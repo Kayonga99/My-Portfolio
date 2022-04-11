@@ -131,6 +131,7 @@ ${card.description}
 cardsUl.innerHTML += projectCards;
 
 // POPUP DATA
+
 const openWindow = document.querySelector('.m-popUp');
 
 function popData(card) {
@@ -140,7 +141,7 @@ function popData(card) {
     <div class="">
       <div class="x-class">
         <h3 class="tonic-class-23">${card.heading1}</h3>
-        <h4 class="close-x">&times;</h4>
+        <h4 class="remove-x close-x">&times;</h4>
       </div>
         <div class="canopy">
           <ul class="cards-ul">
@@ -180,6 +181,13 @@ function popData(card) {
     openWindow.style.display = 'none';
   });
 }
+
+const closePopUp = document.querySelector(".card-list-23")
+const closeMenuWindow = document.querySelector(".card-list-23")
+closeMenuWindow.addEventListener('click', () => {
+  closePopUp.style.display = 'none';
+  console.log(2345);
+})
 
 /* eslint-disable */;
 function showPop(id) {
