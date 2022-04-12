@@ -1,6 +1,6 @@
 # My-Portfolio
 
-> Portfolio  mobile menu.
+> Portfolio  mobile-menu.
 
 ![setup m-version skeleton](./photos/shots/screenshot1.png)
 ![portfolio mobile version](./photos/shots/screenshot2.png)
@@ -20,7 +20,7 @@
 
 To get a local copy up and running follow these simple example steps.
 
-[Click here to view web](https://kayonga99.github.io/My-Portfolio/#portifolio/)
+[Click here to view web](https://kayonga99.github.io/My-Portfolio/)
 
 
 
