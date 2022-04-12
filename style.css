@@ -541,11 +541,13 @@ textarea:hover {
   left: 0;
   right: 0;
   top: 0;
+  height: 810vh;
   bottom: 0;
   flex-direction: column;
   position: absolute;
   display: flex;
   color: #fff;
+  backdrop-filter: blur(5px);
   gap: 20px;
   padding-left: 28px;
   font-family: 'Poppins', sans-serif;
