@@ -1,3 +1,4 @@
+// portfolio-mobile menu
 const bars = document.getElementById('pop');
 const closeMenu = document.querySelector('.close');
 const popUp = document.querySelector('.menu-up');
