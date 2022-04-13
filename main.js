@@ -182,7 +182,6 @@ function popData(card) {
   document.addEventListener("click", e => {
     if (e.target == document.querySelector(".close-x")) {
       document.querySelector(".m-popUp").style.display = "none"
-      console.log(1234567);
     }
   });
 
@@ -196,18 +195,12 @@ function popData(card) {
   
 }
 
-// const closePopUp = document.querySelector(".card-list-23")
-// const closeMenuWindow = document.querySelector(".card-list-23")
-// closeMenuWindow.addEventListener('click', () => {
-//   closePopUp.style.display = 'none';
-// })
-
 /* eslint-disable */;
 function showPop(id) {
   projects.find((card) => {
     if (Number(id) === Number(card.id)) {
       popData(card);
-      openWindow.style.display = 'block';
+      openWindow.style.display = 'flex';
     }
   });
 }
