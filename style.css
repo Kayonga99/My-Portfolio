@@ -679,6 +679,7 @@ li.tools-li-src {
 @media screen and (min-width: 768px) {
   .m-popUp {
     overflow: scroll;
+    cursor: pointer;
     position: fixed;
     left: 0;
     padding-bottom: 500px;
@@ -706,6 +707,7 @@ li.tools-li-src {
 
   .card-list-23 {
     display: flex;
+    overflow: none;
     flex-direction: column;
     width: 1058px;
     height: 956px;

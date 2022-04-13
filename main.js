@@ -185,15 +185,17 @@ function popData(card) {
     }
   });
 
-
-  const closeWindow = document.querySelector('.close-x');
-  const closeModal = document.querySelector('.card-list-23')
-  closeWindow.addEventListener('click', () => {
-    closeModal.style.display = "none"
-  });
-
-  
 }
+
+const openModal = document.querySelectorAll('btn')
+openModal.forEach((element) => {
+  projects.find((card) => {
+    if (Number(id) === Number(card.id)) {
+      popData(card);
+      openWindow.style.display = 'flex';
+    }
+  })
+})
 
 /* eslint-disable */;
 function showPop(id) {
