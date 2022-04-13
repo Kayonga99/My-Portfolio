@@ -176,18 +176,31 @@ function popData(card) {
   const box = document.getElementById('project');
   box.appendChild(temp.content);
 
-  const closeWindow = document.querySelector('.close-x');
-  closeWindow.addEventListener('click', () => {
-    openWindow.style.display = 'none';
+
+
+
+  document.addEventListener("click", e => {
+    if (e.target == document.querySelector(".close-x")) {
+      document.querySelector(".m-popUp").style.display = "none"
+      console.log(1234567);
+    }
   });
+
+
+  const closeWindow = document.querySelector('.close-x');
+  const closeModal = document.querySelector('.card-list-23')
+  closeWindow.addEventListener('click', () => {
+    closeModal.style.display = "none"
+  });
+
+  
 }
 
-const closePopUp = document.querySelector(".card-list-23")
-const closeMenuWindow = document.querySelector(".card-list-23")
-closeMenuWindow.addEventListener('click', () => {
-  closePopUp.style.display = 'none';
-  console.log(2345);
-})
+// const closePopUp = document.querySelector(".card-list-23")
+// const closeMenuWindow = document.querySelector(".card-list-23")
+// closeMenuWindow.addEventListener('click', () => {
+//   closePopUp.style.display = 'none';
+// })
 
 /* eslint-disable */;
 function showPop(id) {
