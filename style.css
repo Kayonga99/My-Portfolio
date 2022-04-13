@@ -665,7 +665,6 @@ img.nature-animated {
   display: none;
 }
 
-
 li.tools-li-src {
   background-color: #ebebff;
   padding: 5px 10px;
@@ -684,7 +683,7 @@ li.tools-li-src {
     left: 0;
     padding-bottom: 500px;
     right: 0;
-    height: 186%; 
+    height: 186%;
     top: 0;
     width: 100%;
     bottom: 0;
@@ -707,7 +706,6 @@ li.tools-li-src {
 
   .card-list-23 {
     display: flex;
-    overflow: none;
     flex-direction: column;
     width: 1058px;
     height: 956px;

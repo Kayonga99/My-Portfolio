@@ -176,25 +176,18 @@ function popData(card) {
   const box = document.getElementById('project');
   box.appendChild(temp.content);
 
-
-
-
-  document.addEventListener("click", e => {
-    if (e.target == document.querySelector(".close-x")) {
-      document.querySelector(".m-popUp").style.display = "none"
+  document.addEventListener('click', (e) => {
+    if (e.target === document.querySelector('.close-x')) {
+      document.querySelector('.m-popUp').style.display = 'none';
     }
   });
-
 }
 
-const openModal = document.querySelectorAll('btn')
+const openModal = document.querySelectorAll('btn');
 openModal.forEach((element) => {
-  projects.find((card) => {
-    if (Number(id) === Number(card.id)) {
-      popData(card);
-      openWindow.style.display = 'flex';
-    }
-  })
+  element.addEventListener('click', () => {
+    openWindow.style.display = 'flex';
+  });
 })
 
 /* eslint-disable */;
