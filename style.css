@@ -686,7 +686,7 @@ img.nature-animated {
 }
 
 .display {
-  display: block
+  display: block;
 }
 
 /* @media querry */
@@ -731,7 +731,7 @@ img.nature-animated {
   }
 
   .card-list-23 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     width: 1058px;
     height: 128%;
@@ -1167,7 +1167,7 @@ img.nature-animated {
     display: none;
   }
 
-  .display{
+  .display {
     display: block;
   }
 }

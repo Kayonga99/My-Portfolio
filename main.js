@@ -133,8 +133,7 @@ cardsUl.innerHTML = projectCards;
 
 // POPUP DATA
 const openWindow = document.querySelector('.m-popUp');
-const box = document.getElementById('project')
-
+const box = document.getElementById('project');
 
 function popData(card) {
   const temp = document.createElement('template');
@@ -177,7 +176,6 @@ function popData(card) {
 `;
   const box = document.getElementById('project');
   box.appendChild(temp.content);
-  
 }
 
 /* eslint-disable */;
