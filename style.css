@@ -699,6 +699,7 @@ img.nature-animated {
   }
 
   .m-popUp {
+    display: none;
     overflow: scroll;
     position: fixed;
     left: 0;

@@ -176,10 +176,6 @@ function popData(card) {
   const box = document.getElementById('project');
   box.appendChild(temp.content);
 
-  // const closeWindow = document.querySelector('.close-x');
-  // closeWindow.addEventListener('click', () => {
-  //   box.style.display = 'none';
-  // });
 }
 
 /* eslint-disable */;
@@ -187,10 +183,9 @@ function showPop(id) {
   projects.find((card) => {
     if (Number(id) === Number(card.id)) {
       popData(card);
-      openWindow.style.display = 'block';
+      openWindow.style.display = 'flex';
     }
   });
-const cardModal = document.querySelectorAll('.btn')
   const closeWindow = document.querySelector('.close-x');
 const openModal = document.querySelector('.card-list-23')
 
