@@ -133,6 +133,8 @@ cardsUl.innerHTML = projectCards;
 
 // POPUP DATA
 const openWindow = document.querySelector('.m-popUp');
+const box = document.getElementById('project')
+
 
 function popData(card) {
   const temp = document.createElement('template');
@@ -175,7 +177,7 @@ function popData(card) {
 `;
   const box = document.getElementById('project');
   box.appendChild(temp.content);
-
+  
 }
 
 /* eslint-disable */;
@@ -188,12 +190,15 @@ function showPop(id) {
   });
   const closeWindow = document.querySelector('.close-x');
 const openModal = document.querySelector('.card-list-23')
+closeWindow.addEventListener('click', () => {
+  box.innerHTML= ''
 
-closeWindow.addEventListener('click', (cardModal) => {
   openWindow.style.display = 'none'
 })
 
-closeWindow.addEventListener('click', (cardModal) => {
+closeWindow.addEventListener('click', () => {
+  box.innerHTML= ''
+
   openModal.style.display = 'none'
 })
 }
