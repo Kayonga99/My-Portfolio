@@ -663,6 +663,14 @@ a.src-btn {
   padding-bottom: 20px;
 }
 
+li.tools-li-src {
+  background-color: #ebebff;
+  padding: 5px 10px;
+  width: 52px;
+  border-radius: 8px;
+  padding-left: 11px;
+}
+
 img.nature-animated {
   display: none;
 }
@@ -691,6 +699,7 @@ img.nature-animated {
   }
 
   .m-popUp {
+    overflow: scroll;
     position: fixed;
     left: 0;
     padding-bottom: 500px;
@@ -720,7 +729,7 @@ img.nature-animated {
     display: flex;
     flex-direction: column;
     width: 1058px;
-    height: 582px;
+    height: 125%;
     box-sizing: border-box;
     border-radius: 16px;
     margin-top: 24px;
@@ -742,7 +751,7 @@ img.nature-animated {
   img.nature-animated {
     display: block;
     width: 981px;
-    height: 354px;
+    height: 41%;
     margin-left: 15px;
   }
 

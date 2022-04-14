@@ -190,6 +190,9 @@ function showPop(id) {
       openWindow.style.display = 'block';
     }
   });
+
+
+  
 }
 
 // form validation
