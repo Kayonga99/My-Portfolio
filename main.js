@@ -22,7 +22,7 @@ const projects = [
   {
     id: 1,
     heading1: 'Tonic',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
+    heading2: ['CANOPY', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2: `Lorem Ipsum is simply dummy text of the
     printing and typesetting industry.
@@ -91,6 +91,7 @@ const projects = [
      and scrambled it to make a type specimen book.
      It has survived not only five centuries, 
      but also the leap into electronic typesetting, remaining essent`,
+    description3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     featuredImage2: './photos/multi-post.png',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
@@ -133,6 +134,7 @@ cardsUl.innerHTML = projectCards;
 
 // POPUP DATA
 const openWindow = document.querySelector('.m-popUp');
+const box = document.getElementById('project');
 
 function popData(card) {
   const temp = document.createElement('template');
@@ -175,11 +177,6 @@ function popData(card) {
 `;
   const box = document.getElementById('project');
   box.appendChild(temp.content);
-
-  const closeWindow = document.querySelector('.close-x');
-  closeWindow.addEventListener('click', () => {
-    openWindow.style.display = 'none';
-  });
 }
 
 /* eslint-disable */;
@@ -187,9 +184,22 @@ function showPop(id) {
   projects.find((card) => {
     if (Number(id) === Number(card.id)) {
       popData(card);
-      openWindow.style.display = 'block';
+      openWindow.style.display = 'flex';
     }
   });
+  const closeWindow = document.querySelector('.close-x');
+const openModal = document.querySelector('.card-list-23')
+closeWindow.addEventListener('click', () => {
+  box.innerHTML= ''
+
+  openWindow.style.display = 'none'
+})
+
+closeWindow.addEventListener('click', () => {
+  box.innerHTML= ''
+
+  openModal.style.display = 'none'
+})
 }
 
 // form validation
