@@ -176,10 +176,10 @@ function popData(card) {
   const box = document.getElementById('project');
   box.appendChild(temp.content);
 
-  const closeWindow = document.querySelector('.close-x');
-  closeWindow.addEventListener('click', () => {
-    openWindow.style.display = 'none';
-  });
+  // const closeWindow = document.querySelector('.close-x');
+  // closeWindow.addEventListener('click', () => {
+  //   box.style.display = 'none';
+  // });
 }
 
 /* eslint-disable */;
@@ -190,9 +190,17 @@ function showPop(id) {
       openWindow.style.display = 'block';
     }
   });
+const cardModal = document.querySelectorAll('.btn')
+  const closeWindow = document.querySelector('.close-x');
+const openModal = document.querySelector('.card-list-23')
 
+closeWindow.addEventListener('click', (cardModal) => {
+  openWindow.style.display = 'none'
+})
 
-  
+closeWindow.addEventListener('click', (cardModal) => {
+  openModal.style.display = 'none'
+})
 }
 
 // form validation

@@ -729,7 +729,7 @@ img.nature-animated {
     display: flex;
     flex-direction: column;
     width: 1058px;
-    height: 125%;
+    height: 128%;
     box-sizing: border-box;
     border-radius: 16px;
     margin-top: 24px;
@@ -751,7 +751,7 @@ img.nature-animated {
   img.nature-animated {
     display: block;
     width: 981px;
-    height: 41%;
+    height: 51%;
     margin-left: 15px;
   }
 
