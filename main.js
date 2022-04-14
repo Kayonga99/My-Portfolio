@@ -22,7 +22,7 @@ const projects = [
   {
     id: 1,
     heading1: 'Tonic',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
+    heading2: ['CANOPY', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2: `Lorem Ipsum is simply dummy text of the
     printing and typesetting industry.
