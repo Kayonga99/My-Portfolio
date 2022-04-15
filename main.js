@@ -245,7 +245,6 @@ if (formData !== null) {
 }
 formElts.forEach((fe) => {
   fe.addEventListener('input', () => {
-    // errorMessage.style.display = 'none';
     const objectForLocalStorage = {
       name: nameInput.value,
       email: mail.value,
