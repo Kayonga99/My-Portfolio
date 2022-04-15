@@ -226,7 +226,12 @@ form.addEventListener('submit', (event) => {
 });
 
 // local-storage
-const formElts = form.querySelectorAll('input, textarea');
+const inputFields = document.forms['contact-form']
+const mail = inputFields.email;
+const messageInput = inputFields.comment;
+const nameInput = inputFields.fullName;
+const formElts = inputFields.querySelectorAll('input, textarea');
+
 
 const saveToLocalStorage = (key, data) => localStorage.setItem(key, JSON.stringify(data));
 const getFromLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
@@ -236,10 +241,11 @@ if (formData !== null) {
   nameInput.value = formData.name;
   mail.value = formData.email;
   messageInput.value = formData.message;
+  
 }
 formElts.forEach((fe) => {
   fe.addEventListener('input', () => {
-    errorMessage.style.display = 'none';
+    // errorMessage.style.display = 'none';
     const objectForLocalStorage = {
       name: nameInput.value,
       email: mail.value,
