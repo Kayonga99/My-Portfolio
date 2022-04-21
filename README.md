@@ -1,6 +1,6 @@
 # My-Portfolio
 
-> Portfolio  window popup.
+> Portfolio  local storage.
 
 ![setup m-version skeleton](./photos/shots/screenshot1.png)
 ![portfolio mobile version](./photos/shots/screenshot2.png)
@@ -16,6 +16,7 @@
 
 - html
 - css
+- javascript
 
 
 To get a local copy up and running follow these simple example steps.

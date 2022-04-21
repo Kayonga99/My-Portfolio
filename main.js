@@ -224,3 +224,32 @@ form.addEventListener('submit', (event) => {
   const errorMessage = 'Please enter an email address without any upper-case letters.';
   validateEmail(form.elements.email.value, event, errorMessage);
 });
+
+// local-storage
+const inputFields = document.forms['contact-form']
+const mail = inputFields.email;
+const messageInput = inputFields.comment;
+const nameInput = inputFields.fullName;
+const formElts = inputFields.querySelectorAll('input, textarea');
+
+
+const saveToLocalStorage = (key, data) => localStorage.setItem(key, JSON.stringify(data));
+const getFromLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
+
+const formData = getFromLocalStorage('formData');
+if (formData !== null) {
+  nameInput.value = formData.name;
+  mail.value = formData.email;
+  messageInput.value = formData.message;
+  
+}
+formElts.forEach((fe) => {
+  fe.addEventListener('input', () => {
+    const objectForLocalStorage = {
+      name: nameInput.value,
+      email: mail.value,
+      message: messageInput.value,
+    };
+    saveToLocalStorage('formData', objectForLocalStorage);
+  });
+});
