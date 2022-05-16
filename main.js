@@ -21,7 +21,7 @@ const cardsUl = document.getElementById('cards');
 const projects = [
   {
     id: 1,
-    heading1: 'Tonic',
+    heading1: 'NAC',
     heading2: ['CANOPY', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2: `Lorem Ipsum is simply dummy text of the
@@ -32,8 +32,8 @@ const projects = [
      and scrambled it to make a type specimen book.
      It has survived not only five centuries, 
      but also the leap into electronic typesetting, remaining essent`,
-    featuredImage: './photos/Snapshoot-Portfolio.png',
-    featuredImage2: './photos/Snapshoot-Portfolio-2.png',
+    featuredImage: './photos//Snapshoot-Portfolio.png',
+    featuredImage2: './photos/newp/embrame.jpg',
     languages: ['html', 'css', 'javascript'],
     linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
