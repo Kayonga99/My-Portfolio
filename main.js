@@ -32,7 +32,7 @@ const projects = [
     featuredImage: './photos/newp/first-bg.jpg',
     featuredImage2: './photos/newp/embrame.jpg',
     languages: ['html', 'css', 'javascript'],
-    linkLive: `https://kayonga99.github.io/Capstone`,
+    linkLive: 'https://kayonga99.github.io/Capstone',
     linkSource: 'https://github.com/Kayonga99/Capstone',
   },
   {
