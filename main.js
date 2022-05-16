@@ -21,22 +21,19 @@ const cardsUl = document.getElementById('cards');
 const projects = [
   {
     id: 1,
-    heading1: 'Tonic',
-    heading2: ['CANOPY', 'Back End Dev', '2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description2: `Lorem Ipsum is simply dummy text of the
-    printing and typesetting industry.
-    Lorem Ipsum has been the industry's 
-   standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type
-     and scrambled it to make a type specimen book.
-     It has survived not only five centuries, 
-     but also the leap into electronic typesetting, remaining essent`,
-    featuredImage: './photos/Snapshoot-Portfolio.png',
-    featuredImage2: './photos/Snapshoot-Portfolio-2.png',
+    heading1: 'NAC',
+    heading2: ['CANOPY', 'Back End Dev', '2022'],
+    description: 'New apostolic church pentocst devine service 2022 Capstone project.',
+    description2: `To capture the spirit of Pentecost,
+     hundreds of thousands of members of the New Apostolic
+      Church will be gathering this coming Sunday in one large congregation.
+       The international Church leader, Chief Apostle Willhem Leber will be conducting
+        the traditional central divine service in German, which will be broadcast throughout the world.`,
+    featuredImage: './photos/newp/first-bg.jpg',
+    featuredImage2: './photos/newp/embrame.jpg',
     languages: ['html', 'css', 'javascript'],
-    linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
-    linkSource: 'https://kayonga99.github.io/My-Portfolio',
+    linkLive: 'https://kayonga99.github.io/Capstone',
+    linkSource: 'https://github.com/Kayonga99/Capstone',
   },
   {
     id: 2,
@@ -168,8 +165,8 @@ function popData(card) {
         <li class="extra">Bootstraps  </li>
       </ul>
       <div class="view-project">
-        <a class="src-btn" href="https://github.com/Kayonga99/">See live <img src="./photos/icons/btn-icon.png" alt="button-icon"> </a>
-        <a class="src-btn" href="https://github.com/Kayonga99/">See Source <img src="./photos/icons/blue-github.png" alt="github-icon"> </a>
+        <a class="src-btn" href="${card.linkLive} ">See live <img src="./photos/icons/btn-icon.png" alt="button-icon"> </a>
+        <a class="src-btn" href="${card.linkSource}">See Source <img src="./photos/icons/blue-github.png" alt="github-icon"> </a>
       </div>
     </div>
     </div>
