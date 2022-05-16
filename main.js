@@ -32,10 +32,10 @@ const projects = [
      and scrambled it to make a type specimen book.
      It has survived not only five centuries, 
      but also the leap into electronic typesetting, remaining essent`,
-    featuredImage: './photos//Snapshoot-Portfolio.png',
+    featuredImage: './photos/newp/first-bg.jpg',
     featuredImage2: './photos/newp/embrame.jpg',
     languages: ['html', 'css', 'javascript'],
-    linkLive: 'location.href=\'https://kayonga99.github.io/My-Portfolio/index.html\'',
+    linkLive: 'location.href=\' https://kayonga99.github.io/Capstone/\'',
     linkSource: 'https://kayonga99.github.io/My-Portfolio',
   },
   {
@@ -168,7 +168,7 @@ function popData(card) {
         <li class="extra">Bootstraps  </li>
       </ul>
       <div class="view-project">
-        <a class="src-btn" href="https://github.com/Kayonga99/">See live <img src="./photos/icons/btn-icon.png" alt="button-icon"> </a>
+        <a class="src-btn" href=" https://kayonga99.github.io/Capstone/">See live <img src="./photos/icons/btn-icon.png" alt="button-icon"> </a>
         <a class="src-btn" href="https://github.com/Kayonga99/">See Source <img src="./photos/icons/blue-github.png" alt="github-icon"> </a>
       </div>
     </div>
