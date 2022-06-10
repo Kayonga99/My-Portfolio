@@ -14,6 +14,7 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: row;
+  width: 355px;
 }
 
 h1 {
@@ -82,7 +83,7 @@ h1 {
   background-repeat: no-repeat;
   border-bottom-left-radius: 100px;
   background-color: #fff;
-  width: 327px;
+  width: 355px;
 }
 
 .ul-list-icons {
